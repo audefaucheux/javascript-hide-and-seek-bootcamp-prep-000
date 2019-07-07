@@ -9,6 +9,6 @@ function nestedTarget () {
 function increaseRankBy(n) {
   const rankedLists = document.querySelectorAll('.ranked-list')
   for (let i = 0; i < rankedLists.length; i++) {
-    return rankedLists[i + 1]
+    return parseInt(rankedLists[i + 1])
   }
 }
